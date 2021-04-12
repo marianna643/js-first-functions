@@ -7,7 +7,6 @@ function morningGreeter() {
 }
 
 const greeting = morningGreeter();
-
 console.log(greeting);
 
 /* Opdracht 1 */
@@ -16,6 +15,7 @@ console.log(greeting);
 function getSchool(){
   return "Novi Hogeschool";
 }
+
 console.log (getSchool());
 
 /* Opdracht 2 */
@@ -24,6 +24,7 @@ console.log (getSchool());
 function compliment(){
   return "Lekker bezig met die functies, Marianna!";
 }
+
 const outcome = compliment();
 console.log(outcome);
 
@@ -34,6 +35,7 @@ function getGrades (){
   const cijfer = [8, 8.5, 6, 7];
   return cijfer;
 }
+
 console.log(getGrades());
 
 /* Opdracht 4 */
